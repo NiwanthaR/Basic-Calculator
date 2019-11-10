@@ -8,10 +8,10 @@
    </body>
 </div>
 <br/><br/><br/>
-<p align="center" ><img src="Sample Img/01.jpg"></p>
+<p align="center" ><img src="Sample Img/01.png"></p>
 
 <br/>
-<p align="center" ><img src="Sample Img/02.jpg"></p>
+<p align="center" ><img src="Sample Img/02.png"></p>
 
 <br/>
 <p align="center" ><img src="Sample Img/03.jpg"></p>
