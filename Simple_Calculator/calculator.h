@@ -22,6 +22,9 @@ private slots:
     void digite_press();
     void on_pushButton_decimal_released();
     void unary_opperation();
+    void binary_opperation();
+    void on_pushButton_equal_released();
+    void on_pushButton_clear_released();
 };
 
 #endif // CALCULATOR_H
