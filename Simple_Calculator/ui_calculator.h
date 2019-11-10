@@ -30,8 +30,8 @@ public:
     QPushButton *pushButton_prasantage;
     QPushButton *pushButton_mark;
     QPushButton *pushButton_add;
+    QPushButton *pushButton_7;
     QPushButton *pushButton_9;
-    QPushButton *pushButton_10;
     QPushButton *pushButton_8;
     QPushButton *pushButton_substraction;
     QPushButton *pushButton_4;
@@ -113,20 +113,20 @@ public:
 "    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
 "                                      stop: 0 #FF7832, stop: 1 #FF9739);\n"
 "}"));
-        pushButton_9 = new QPushButton(centralWidget);
-        pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
-        pushButton_9->setGeometry(QRect(0, 200, 91, 70));
-        pushButton_9->setStyleSheet(QLatin1String("QPushButton {\n"
+        pushButton_7 = new QPushButton(centralWidget);
+        pushButton_7->setObjectName(QStringLiteral("pushButton_7"));
+        pushButton_7->setGeometry(QRect(0, 200, 91, 70));
+        pushButton_7->setStyleSheet(QLatin1String("QPushButton {\n"
 "   border: 1px solid gray;\n"
 "}\n"
 "QPushButton:pressed {\n"
 "    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
 "                                      stop: 0 #dadbde, stop: 1 #f6f7fa);\n"
 "}"));
-        pushButton_10 = new QPushButton(centralWidget);
-        pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
-        pushButton_10->setGeometry(QRect(180, 200, 91, 70));
-        pushButton_10->setStyleSheet(QLatin1String("QPushButton {\n"
+        pushButton_9 = new QPushButton(centralWidget);
+        pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
+        pushButton_9->setGeometry(QRect(180, 200, 91, 70));
+        pushButton_9->setStyleSheet(QLatin1String("QPushButton {\n"
 "   border: 1px solid gray;\n"
 "}\n"
 "QPushButton:pressed {\n"
@@ -291,8 +291,8 @@ public:
         pushButton_prasantage->setText(QApplication::translate("Calculator", "%", Q_NULLPTR));
         pushButton_mark->setText(QApplication::translate("Calculator", "+/-", Q_NULLPTR));
         pushButton_add->setText(QApplication::translate("Calculator", "+", Q_NULLPTR));
-        pushButton_9->setText(QApplication::translate("Calculator", "7", Q_NULLPTR));
-        pushButton_10->setText(QApplication::translate("Calculator", "9", Q_NULLPTR));
+        pushButton_7->setText(QApplication::translate("Calculator", "7", Q_NULLPTR));
+        pushButton_9->setText(QApplication::translate("Calculator", "9", Q_NULLPTR));
         pushButton_8->setText(QApplication::translate("Calculator", "8", Q_NULLPTR));
         pushButton_substraction->setText(QApplication::translate("Calculator", "-", Q_NULLPTR));
         pushButton_4->setText(QApplication::translate("Calculator", "4", Q_NULLPTR));
