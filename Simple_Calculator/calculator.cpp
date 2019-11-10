@@ -108,21 +108,21 @@ void Calculator::on_pushButton_equal_released()
     }
     else if (ui->pushButton_substraction->isChecked())
     {
-        lable_number =first_number + second_number;
+        lable_number =first_number - second_number;
         new_lable = QString::number(lable_number,'g',15);
         ui->label->setText(new_lable);
         ui->pushButton_substraction->setChecked(false);
     }
     else if (ui->pushButton_multiple->isChecked())
     {
-        lable_number =first_number + second_number;
+        lable_number =first_number * second_number;
         new_lable = QString::number(lable_number,'g',15);
         ui->label->setText(new_lable);
         ui->pushButton_multiple->setChecked(false);
     }
     else if (ui->pushButton_devide->isChecked())
     {
-        lable_number =first_number + second_number;
+        lable_number =first_number / second_number;
         new_lable = QString::number(lable_number,'g',15);
         ui->label->setText(new_lable);
         ui->pushButton_devide->setChecked(false);
