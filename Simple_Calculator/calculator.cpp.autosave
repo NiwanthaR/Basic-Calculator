@@ -65,3 +65,13 @@ void Calculator::unary_opperation()
         ui->label->setText(new_lable);
     }
 }
+
+void Calculator::on_pushButton_equal_released()
+{
+    
+}
+
+void Calculator::on_pushButton_clear_released()
+{
+    
+}
